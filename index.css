@@ -12,13 +12,26 @@
   --h4-size: 32px;
   --h5-size: 28px;
   --h6-size: 22px;
+  /* spacing */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
   --purple-1: #6962f7;
   --purple-2: #7000ff;
+  --blue-1: #00d4ff;
   --primary-accent: #0a2540;
+  --bg-white: #fff;
+  --bg-light: #f7f9fc;
 }
 
 body {
   font-family: var(--body-font);
+  color: var(--text-dark);
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: var(--spacing-sm);
 }
 
 h1 {
