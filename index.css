@@ -57,19 +57,18 @@ h1 {
   font-weight: 600;
   font-size: var(--h1-size);
   margin: 0;
-  width: 100%;
   letter-spacing: -1px;
+  width: 100%;
   line-height: var(--h1-height);
 }
 
 h2 {
   font-family: var(--heading-font);
-  font-weight: 500;
-  font-size: var(--h2-size);
+  letter-spacing: -1px;
+  font-weight: 600;
+  font-size: var(--h3-size);
   margin: 0;
   width: 100%;
-  letter-spacing: -0.25px;
-  line-height: var(--h2-height);
 }
 
 h3 {
@@ -312,4 +311,23 @@ main {
 .partners-grid img {
   height: 60px;
   place-self: center;
+}
+
+/* unified platform */
+.unified-platform-section {
+  padding: var(--spacing-xl) 0;
+}
+
+.unified-platform-section h2 {
+  width: 50%;
+  margin-bottom: var(--spacing-md);
+}
+
+.unified-platform-section .primary-button {
+  background-color: var(--purple-1);
+  margin: var(--spacing-md) 0;
+}
+
+.unified-platform-section .primary-button:hover {
+  background-color: var(--primary-accent);
 }
