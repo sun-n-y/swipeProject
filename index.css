@@ -617,3 +617,20 @@ main {
   height: 446px;
   padding: 0 var(--spacing-xl) 0 0;
 }
+
+/* get started section */
+.get-started-section {
+  display: flex;
+  justify-content: center;
+}
+
+.get-started-section .col-right {
+  flex-direction: row;
+}
+
+.get-started-section .col-right .card {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 var(--spacing-sm) 0 0;
+  margin: 0 var(--spacing-md) 0 0;
+}
