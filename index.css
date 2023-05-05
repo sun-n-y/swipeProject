@@ -36,6 +36,7 @@
   --bg-white: #fff;
   --bg-light: #f7f9fc;
 
+
   --standard-box-shadow: 0px 2px 40px rgba(0, 0, 0, .15);
   --primary-gradient: linear-gradient(101.33deg,
       #08209a 0.76%,
@@ -273,7 +274,7 @@ main {
   width: 100%;
   max-width: var(--standard-width);
   padding: 0 var(--spacing-md);
-
+  margin: 0 0 var(--spacing-lg) 0;
 }
 
 .menu {
@@ -299,6 +300,21 @@ main {
 
 .navbar-button:hover {
   background: rgba(250, 250, 250, .5);
+}
+
+/* animated gradient */
+#gradient-canvas {
+  width: 200%;
+  height: 970px;
+  transform: rotate(-10deg);
+  position: absolute;
+  top: -600px;
+  left: -50%;
+  z-index: -1;
+  --gradient-color-1: #ef008f;
+  --gradient-color-2: #6ec3f4;
+  --gradient-color-3: #7038ff;
+  --gradient-color-4: #ffba27;
 }
 
 /* hero */
@@ -445,6 +461,18 @@ main {
   left: 0;
   z-index: -1;
   transform: skewY(-10deg);
+}
+
+.integration-section::after {
+  content: "";
+  position: absolute;
+  background-color: var(--bg-light);
+  width: 100%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+
 }
 
 .integration-section .primary-button {
