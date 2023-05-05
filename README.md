@@ -21,5 +21,9 @@
     - display grid 
     - display flex
     - adding sections
-
+  - ### PART 3
+    - add remaining sections
+    - footer
+    - angled stripes
+    - animated gradient
 [Back to Top](#custom_anchor_name)
