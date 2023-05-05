@@ -44,7 +44,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: var(--spacing-sm);
-  background-color: var(--bg-light);
+  background-color: var(--bg-white);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -298,4 +298,18 @@ main {
 .hero-phone {
   height: 628px;
   transform: translate(32px, -32px);
+}
+
+/* partner logos */
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  margin: var(--spacing-xl) 0;
+  gap: var(--spacing-lg) var(--spacing-md);
+}
+
+.partners-grid img {
+  height: 60px;
+  place-self: center;
 }
