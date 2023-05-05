@@ -181,6 +181,27 @@ main {
   justify-content: center;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: var(--spacing-sm) var(--spacing-md) var(--spacing-sm) 0;
+}
+
+.card .icon {
+  height: 50px;
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+.card h3 {
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: var(--h6-size);
+  margin: 0;
+  width: 100%;
+}
+
 .secondary-text {
   font-size: var(--secondary-text-size);
   line-height: var(--secondary-text-height);
@@ -368,4 +389,44 @@ main {
   grid-area: dash;
   width: 100%;
   box-shadow: var(--standard-box-shadow);
+}
+
+/* integration section  */
+.integration-section {
+  color: var(--text-light);
+  background-color: var(--primary-accent);
+}
+
+.integration-section .primary-button {
+  background-color: var(--blue-1);
+  color: var(--primary-accent);
+  margin: var(--spacing-md) 0 0 0;
+}
+
+.integration-section .primary-button:hover {
+  background-color: var(--bg-light);
+}
+
+.card-container {
+  display: flex;
+  margin: var(--spacing-lg) 0;
+}
+
+.integration-section .card-container .card {
+  width: 50%;
+}
+
+.integration-section .secondary-button {
+  color: var(--blue-1);
+}
+
+#api-code {
+  max-width: 470px;
+  margin: 0 0 var(--spacing-md) 0;
+  border-radius: 20px;
+}
+
+#terminal-code {
+  border-radius: 20px;
+  max-width: 470px;
 }
