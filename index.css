@@ -786,11 +786,13 @@ main {
 }
 
 /* tablet size */
-@media screen and (max-width:768px) {
-  body {
-    background-color: rebeccapurple;
+@media screen and (max-width:1144px) {
+  .section-container {
+    padding: 0 var(--spacing-md);
   }
 }
+
+@media screen and (max-width:768px) {}
 
 /* mobile size */
 @media screen and (max-width:550px) {}
