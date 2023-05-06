@@ -300,7 +300,26 @@ navbar
 
 .hamburger-button {
   display: none;
+  cursor: pointer;
 }
+
+.sidebar {
+  position: fixed;
+  width: 20%;
+  max-width: 170px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: rebeccapurple;
+  z-index: 4;
+  transition: all 1s linear;
+  transform: translateX(100%);
+}
+
+.show-sidebar {
+  transform: translateX(0);
+}
+
 
 .menu {
   display: flex;
