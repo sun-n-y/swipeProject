@@ -841,6 +841,21 @@ main {
     margin: 0;
     margin: var(--spacing-md) 0;
   }
+
+  /* global section */
+  .global-section .card-container {
+    flex-wrap: wrap;
+    margin: var(--spacing-xl) 0;
+  }
+
+  .global-section .card-container .card {
+    width: 50%;
+    margin: var(--spacing-md) 0;
+  }
+
+  #global-graphic {
+    opacity: 10%;
+  }
 }
 
 /* mobile size */
@@ -878,6 +893,13 @@ main {
   .card .icon {
     height: 35px;
   }
+
+  /* globale section */
+  .global-section .card-container .card {
+    width: 100%;
+    margin: var(--spacing-sm) 0;
+  }
+
 }
 
 /* for overflows in x directions */
