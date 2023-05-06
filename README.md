@@ -26,4 +26,12 @@
     - footer
     - angled stripes
     - animated gradient
+  - ### PART 4
+    - make website responsive
+    - fix issues at several breakpoints in media queries
+    - empty vertical space adjustments on mobile view
+    - overflow issues fixed
+    - navbar functionality 
+    - clean up css
+    
 [Back to Top](#custom_anchor_name)
