@@ -932,6 +932,28 @@ main {
   #session-img {
     width: 300px;
   }
+
+  /* footer */
+  .footer .section-container {
+    flex-wrap: wrap;
+  }
+
+  .footer .section-container .col {
+    width: 50%;
+    margin: var(--spacing-md) 0;
+  }
+
+  .footer .col a {
+    font-size: 12px;
+  }
+
+  #footer-logo {
+    max-width: 64px;
+  }
+
+  .footer .col .icon-link img {
+    width: 18px;
+  }
 }
 
 /* for overflows in x directions */
