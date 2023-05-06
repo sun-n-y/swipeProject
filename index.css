@@ -900,6 +900,23 @@ main {
     margin: var(--spacing-sm) 0;
   }
 
+  /* virtual events section */
+  .virtual-event-section .swipe-sessions-card {
+    width: 100%;
+    height: 400px;
+  }
+
+  .virtual-event-section .swipe-sessions-card .card-top {
+    height: 40%;
+  }
+
+  .virtual-event-section .swipe-sessions-card .secondary-text {
+    width: 100%;
+  }
+
+  #session-img {
+    width: 300px;
+  }
 }
 
 /* for overflows in x directions */
