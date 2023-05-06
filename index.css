@@ -856,7 +856,22 @@ main {
   #global-graphic {
     opacity: 10%;
   }
+
+  /* getting started section */
+  .get-started-section .col-right {
+    flex-wrap: wrap;
+  }
+
+  .get-started-section .col-right .card {
+    width: 100%;
+    margin: var(--spacing-md) 0;
+  }
+
+  .get-started-section .two-column {
+    align-items: center;
+  }
 }
+
 
 /* mobile size */
 @media screen and (max-width:550px) {
