@@ -830,6 +830,17 @@ main {
   .integration-section .card-container .card {
     width: 100%;
   }
+
+  /* why swipe section */
+  .why-swipe-section .card-container {
+    flex-wrap: wrap;
+  }
+
+  .why-swipe-section .card-container .card {
+    width: 50%;
+    margin: 0;
+    margin: var(--spacing-md) 0;
+  }
 }
 
 /* mobile size */
@@ -853,8 +864,19 @@ main {
     width: 100%;
   }
 
+  /* integration section */
   .integration-section .two-column .col-right {
     display: none;
+  }
+
+  /* why swipe section */
+  .why-swipe-section .card-container .card {
+    width: 100%;
+    margin: var(--spacing-sm) 0;
+  }
+
+  .card .icon {
+    height: 35px;
   }
 }
 
