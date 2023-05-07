@@ -26,12 +26,15 @@
     - footer
     - angled stripes
     - animated gradient
+    - pseudo elements before and after
   - ### PART 4
     - make website responsive
     - fix issues at several breakpoints in media queries
     - empty vertical space adjustments on mobile view
     - overflow issues fixed
-    - navbar functionality 
+    - sidebar functionality w/ javascript 
     - clean up css
+    - autoprefixer
+    - git hub pages
     
 [Back to Top](#custom_anchor_name)
