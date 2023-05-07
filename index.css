@@ -313,17 +313,39 @@ navbar
   background-color: rebeccapurple;
   z-index: 4;
   transition: all .5s linear;
-  transform: translateX(100%);
+  /* transform: translateX(100%); */
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-
-
-.show-sidebar {
-  transform: translateX(0);
+.sidebar-links {
+  list-style-type: none;
+  padding: var(--spacing-lg);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.sidebar-links li {
+  display: block;
+  margin: var(--spacing-lg) 0;
+}
+
+.sidebar li a {
+  color: var(--text-light);
+}
+
+.sidebar li a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* .show-sidebar {
+  transform: translateX(0);
+} */
 
 .close-btn {
   position: absolute;
